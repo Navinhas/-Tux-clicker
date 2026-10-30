@@ -1,0 +1,111 @@
+:root {
+  --bg: #0b1d33;
+  --bg-card: #12304f;
+  --title: #7fdbff;
+  --counter: #ffffff;
+  --level: #ffb703;
+  --text: #cfe8ff;
+}
+
+html, body {
+  margin: 0;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+}
+
+#root {
+  flex: 1;
+  min-height: 100dvh;
+}
+
+.App {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 12px;
+  padding: 20px 12px;
+  background: var(--bg-card);
+}
+
+h1 {
+  text-align: center;
+  color: var(--title);
+}
+
+
+
+h3 {
+  margin: 12px 0;
+}
+
+img {
+  width: min(90vw, 600px);
+  max-height: 45dvh;
+  object-fit: contain;
+  cursor: pointer;
+  user-select: none;
+  filter: drop-shadow(0 0 20px #00f3ff);/*Filtra a sombra deixando do formato da imagem*/
+  transition: transform 0.08s ease;
+}
+
+img:active {
+  transform: scale(0.92);
+}
+
+.lvl {
+  font-size: clamp(15px, 3vw, 19px);/*Deixa o tamanho da fonte variavel dependendo da tela*/
+  margin: 0;
+  color: var(--level);
+}
+
+.counter {
+  font-size: clamp(32px, 8vw, 56px);
+  margin: 0;
+  color: var(--counter);
+}
+
+.tipo {
+  font-size: clamp(18px, 4vw, 28px);
+  margin: 0;
+  color: var(--level);
+}
+
+
+@media (max-width: 480px) {
+  .App {
+    gap: 10px;
+    padding: 16px 10px;
+  }
+
+  img {
+    width: 95%;
+    max-height: 38dvh;
+  }
+
+  h3 {
+    margin: 8px 0;
+  }
+}
+
+@media (max-height: 500px) {
+  .App {
+    justify-content: flex-start;
+    padding-top: 10px;
+    gap: 6px;
+  }
+
+  img {
+    max-height: 30dvh;
+  }
+}
+
+
