@@ -10,7 +10,7 @@ O Tux Clicker é um jogo em que o objetivo é clicar no Tux para acumular pontos
 
 ### Tela principal
 
-![Tela principal do Tux Clicker](screenshorts//home/navas/Área de trabalho/tux-clicker/screenshorts/Captura de tela de 2026-10-30 00-59-45.png)
+![Tela principal do Tux Clicker](screenshorts/Captura%20de%20tela%20de%202026-10-30%2000-59-45.png)
 
 ## ✨ Funcionalidades
 
