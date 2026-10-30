@@ -1,16 +1,71 @@
-# React + Vite
+# 🐧 Tux Clicker
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Um jogo simples de clicker inspirado no Tux, mascote do sistema operacional Linux. Desenvolvido como projeto de aprendizado utilizando React, HTML, CSS e JavaScript.
 
-Currently, two official plugins are available:
+## 🎮 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O Tux Clicker é um jogo em que o objetivo é clicar no Tux para acumular pontos e evoluir seu personagem.
 
-## React Compiler
+## 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Tela principal
 
-## Expanding the Oxlint configuration
+![Tela principal do Tux Clicker](screenshorts//home/navas/Área de trabalho/tux-clicker/screenshorts/Captura de tela de 2026-10-30 00-59-45.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Funcionalidades
+
+- Sistema de cliques e pontuação.
+- Diferentes versões do Tux.
+- Evolução por níveis.
+- Interface interativa.
+
+## 🛠️ Tecnologias utilizadas
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+## 🚀 Como executar o projeto
+
+**1. Clone o repositório:**
+
+```bash
+git clone https://github.com/Navinhas/-Tux-clicker.git
+```
+
+**2. Entre na pasta:**
+
+```bash
+cd -Tux-clicker
+```
+
+**3. Instale as dependências:**
+
+```bash
+npm install
+```
+
+**4. Inicie o projeto:**
+
+```bash
+npm run dev
+```
+
+Depois, abra no navegador o endereço local apresentado pelo Vite no terminal.
+
+## 📌 Melhorias futuras
+
+- [ ] Adicionar novos personagens Tux.
+- [ ] Implementar novas melhorias no jogo.
+- [ ] Adicionar efeitos e animações.
+- [ ] Melhorar a experiência em dispositivos móveis.
+
+## 👨‍💻 Autor
+
+Desenvolvido por [Navinhas](https://github.com/Navinhas).
+
+---
+
+Projeto desenvolvido para praticar e aprimorar conhecimentos em desenvolvimento web.
