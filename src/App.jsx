@@ -9,6 +9,7 @@ import tux3 from "./img/pix-art-tuxlvl3.png"
 import tux4 from "./img/master-tuxlvl4.png"
 import tux5 from "./img/metal-tuxlvl5.png"
 import tux6 from "./img/ff-tuxlvl6.png"
+import tux7 from "./img/angel-tuxlvl7.png"
 
 const niveis = [
   {nome: "Normal tux", imagem: tux1, minimo: 0},
@@ -16,7 +17,9 @@ const niveis = [
   {nome: "Pixel tux", imagem: tux3, minimo: 1500},
   {nome: "Master tux", imagem: tux4, minimo: 2500},
   {nome: "Metal tux", imagem: tux5, minimo: 3500},
-  {nome: "FF tux", imagem: tux6, minimo: 4500}
+  {nome: "FF tux", imagem: tux6, minimo: 4500},
+  {nome: "Angel tux", imagem: tux7, minimo: 5500}
+
 ]
 
 function App() {
@@ -27,7 +30,7 @@ function App() {
   const numeroNivel = niveis.indexOf(nivelAtual) + 1;
 
   function incrementer(){
-    setCounter(prev => prev + 1);
+    setCounter(prev => prev + 500);
   }
   
   return(
